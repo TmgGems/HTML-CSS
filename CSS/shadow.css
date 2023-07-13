@@ -1,0 +1,15 @@
+h1{
+    text-shadow: 1px 3px 1px #81de0f,-3px -3px 1px rgb(23, 255, 216);
+    border-style: dashed;
+    border-right-width: 400px;
+    border-radius: 10px;
+    border-top-color: aqua;
+}
+
+#box{
+    width:100px;
+    height:100px;
+    background-color:rgba(0, 0, 0, 0.24);
+    box-shadow: 3px 3px 1px;
+
+}
