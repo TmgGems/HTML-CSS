@@ -1,0 +1,15 @@
+div{
+    background-color: aquamarine;
+    color:rgb(201, 164, 90);
+    height:200px;
+    width:200px;
+    display:inline-block;
+}
+
+span{
+    background-color: blue;
+    color:rgb(201, 164, 90);
+    height: 200px;
+    width: 200px;
+    display:inline-block;
+}
