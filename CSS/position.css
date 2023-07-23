@@ -2,7 +2,7 @@
     height: 100px;
     width: 100px;
     background-color: rgb(56, 139, 139);
-    position:fixed;
+    position:sticky;
     top:100px;
     left:100px;
 }
