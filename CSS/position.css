@@ -3,8 +3,15 @@
     width: 100px;
     background-color: rgb(56, 139, 139);
     position:fixed;
-    bottom:0px;
-    left:0px;
+    top:100px;
+    left:100px;
+}
 
-
+#box2{
+    height:50px;
+    width:50px;
+    position:absolute;
+    background-color:rgb(255, 0, 55);
+    top:25px;
+    left:15px;
 }
