@@ -2,9 +2,9 @@
     height: 100px;
     width: 100px;
     background-color: rgb(56, 139, 139);
-    position:relative;
-    top:150px;
-    left:150px;
+    position:fixed;
+    bottom:0px;
+    left:0px;
 
 
 }
