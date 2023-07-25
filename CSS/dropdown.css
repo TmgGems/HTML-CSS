@@ -1,0 +1,42 @@
+.Dropdown{
+    display:inline-block;
+}
+
+.Dropdown button{
+    background-color: rgb(93, 218, 218);
+    color:black;
+    padding:7px 9px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.Dropdown a{
+    display:block;
+    text-decoration: none;
+    padding:7px 8px;
+    color:black;
+}
+
+.Dropdown .container a::before{
+    content:"✌";
+}
+
+.Dropdown .container {
+    position:absolute;
+    background-color: antiquewhite;
+    min-width:100px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+    display:none;
+}
+
+.Dropdown:hover .container{
+    display:block;
+}
+
+.Dropdown:hover button{
+    background-color: rgb(98, 202, 98);
+}
+
+.Dropdown a:hover{
+    background-color: rgb(207, 207, 33);
+}
