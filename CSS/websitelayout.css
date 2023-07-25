@@ -1,0 +1,45 @@
+body{
+    margin:0px;
+}
+header{
+    background-color: rgb(228, 228, 140);
+    text-align: center;
+    padding:25px;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.222);
+    height:40px;
+}
+
+*{
+    box-sizing: border-box;
+}
+aside{
+    width:20%;
+    float:left;
+    background-color: rgb(193, 232, 78);
+    padding: 9px;
+}
+
+section{
+    width:40%;
+    float:right;
+    background-color: rgb(116, 223, 223);
+    padding:9px;
+}
+
+article{
+    width:40%;
+    float:left;
+    background-color: blueviolet;
+    padding:9px;
+}
+
+footer{
+    display: block;
+    clear:both;
+    text-align: center;
+    background-color: rgb(222, 222, 50);
+    padding:25px;
+}
