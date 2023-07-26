@@ -4,8 +4,8 @@
     background-color: skyblue;
     text-align: center;
     font-size: 12em;
-    animation-name:rotate;
-    animation-duration: 5s;
+    animation-name:colorChange;
+    animation-duration: 2s;
 }
 
 @keyframes slideleft {
@@ -28,5 +28,27 @@
     
 }
 @keyframes rotate {
-    100%{transform: rotatez(180deg);}
+    10%{transform: rotatez(180deg);}
+}
+
+@keyframes grow {
+    100%{transform: scale(2,2) ;}
+}
+
+@keyframes shrink {
+    50%{transform:scale(0.5,0.5) ;}
+}
+
+@keyframes fade {
+    100%{capacity:0}
+    
+}
+
+@keyframes colorChange{
+    0%{background-color: skyblue};
+    20%{background-color: rgb(230, 230, 112)};
+    40%{background-color: rgb(182, 103, 91)};
+    60%{background-color: rgb(230, 230, 112)};
+    80%{background-color: rgb(182, 103, 91)};
+    20%{background-color: rgb(230, 230, 112)};
 }
