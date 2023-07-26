@@ -1,7 +1,12 @@
 .container{
     display: flex;
     flex-direction: row;
-    justify-content:space-around ;
+    border:10px solid black;
+    height:90vh;
+    align-items: baseline;
+    justify-content:baseline ;
+    column-gap: 2em;
+    row-gap: 2em;
 }
 
 .box{
