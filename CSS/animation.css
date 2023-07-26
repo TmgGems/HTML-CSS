@@ -1,0 +1,29 @@
+#box{
+    height: 250px;
+    width: 250px;
+    background-color: skyblue;
+    text-align: center;
+    font-size: 12em;
+    animation-name:slideUp;
+    animation-duration: 3s;
+}
+
+@keyframes slideleft {
+    from{transform: translateX(300%);}
+    
+}
+
+@keyframes slideright {
+    to {transform: translateX(300%);}
+    
+}
+
+@keyframes slideUp {
+    from{transform: translateY(300%);}
+    
+}
+
+@keyframes slidedown {
+    to {transform: translateY(300%);}
+    
+}
