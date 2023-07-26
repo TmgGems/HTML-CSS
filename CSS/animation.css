@@ -4,8 +4,8 @@
     background-color: skyblue;
     text-align: center;
     font-size: 12em;
-    animation-name:slideUp;
-    animation-duration: 3s;
+    animation-name:rotate;
+    animation-duration: 5s;
 }
 
 @keyframes slideleft {
@@ -26,4 +26,7 @@
 @keyframes slidedown {
     to {transform: translateY(300%);}
     
+}
+@keyframes rotate {
+    100%{transform: rotatez(180deg);}
 }
