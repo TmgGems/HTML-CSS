@@ -5,10 +5,10 @@ body{
 .box{
     width:200px;
     height: 200px;
-    font-size: 5em;
+    font-size: 3em;
     text-align: center;
     border: 5px solid;
-    transform: translateX(200px) rotateZ(45deg)scale(0.5);
+    transform: translate(200px,50px) rotateZ(45deg);
 }
 
 #box1{
